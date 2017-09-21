@@ -1,0 +1,83 @@
+body, html {
+    height: 100%;
+}
+
+.student {
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    background-color: #887878;
+    margin: 15px;
+    width: 20vw;
+}
+
+.img {
+    cursor: pointer;
+    height: 20%;
+}
+
+.avatar {
+    width: 100%;
+    height: auto;
+}
+
+.input-wrap,
+.name {
+    margin: 1vw 0;
+}
+
+.name {
+    
+    padding: 15px;
+    text-transform: capitalize;
+    color: #342f24;
+    text-align: center;
+    height: 15px;
+}
+
+.name,
+.edit{
+    font-size: 2vw;
+}
+
+.info {
+    font-size: 1.2vw;
+    padding: 5px;
+}
+
+.edit {
+    display: block;
+    background-color: #e6d82b;
+    margin: 15px auto;
+    border: 2px solid orange;
+    width: 100%;
+}
+
+.wrapper {
+    display: inline-block;
+}
+
+.input{
+    position: absolute;
+    bottom: 60px;  
+    width: 8vw;
+}
+
+.input-left {
+    left: 0.5vw;
+}
+
+.input-right {
+    right: 0.5vw;
+}
+
+.return {
+    display: block;
+    font-size: 2vw;
+    text-decoration: none;
+    transition: .2s ease-in;
+}
+
+.return:hover {
+    color: red;
+}

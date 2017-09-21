@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Angular</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <script src="directives/student/directive_student.js"></script>
+    <script src="directives/students-list/directive_studentsList.js"></script>
+    <script src="directives/student-info/directive_student_info.js"></script>
+</head>
+
+<body ng-app="studentsList" ng-controller="controllerStudentsList">
+
+<div ui-view></div>
+
+<!--<directive-students-list></directive-students-list>-->
+
+</body>
+
+</html>

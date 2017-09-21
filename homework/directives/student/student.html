@@ -1,0 +1,15 @@
+
+<div class="student">
+    <div class="img">
+        <img src="{{ photo }}" alt="avatar" class="avatar" ui-sref="detail({ student: name })">
+    </div>
+    <div class="name"><span ng-show="!show">{{ name }} {{ surname }}</span></div>
+    <div class="input-wrap" ng-show="show">
+        <input class="input-left input" ng-model="name">
+        <input class="input-right input" ng-model="surname">
+    </div>
+    <button class="edit" ng-show="!show" ng-click="show=!show">Edit</button>
+    <button class="edit" ng-show="show" ng-click="show=!show">Save</button>
+</div>
+
+
